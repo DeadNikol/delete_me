@@ -1,0 +1,9 @@
+vuln_id,language,file,line,severity,cwe_id,cwe_name,owasp,cve_example,cvss,description
+1,Python,app.py,45,Critical,CWE-89,SQL Injection,A03,CVE-2019-25676,9.8,Конкатенация SQL в форме входа
+2,Python,templates/product.html,23,High,CWE-79,Stored XSS,A03,CVE-2005-3308,8.2,Рендеринг комментариев с |safe
+3,C++,vulnerable.cpp,15,Critical,CWE-120,Buffer Overflow,A06,CVE-2026-89633,9.5,strcpy без проверки длины
+4,C++,vulnerable.cpp,35,Critical,CWE-78,Command Injection,A03,CVE-2026-30880,9.8,system() с пользовательским вводом
+5,C++,vulnerable.cpp,25,High,CWE-134,Format String,A03,—,7.8,printf с пользовательским вводом
+6,JavaScript,vulnerable.js,15,Critical,CWE-89,SQL Injection,A03,CVE-2020-37243,9.8,Конкатенация в SQL-запросе
+7,JavaScript,vulnerable.js,25,High,CWE-79,XSS,A03,CVE-2005-3309,8.2,Прямой вывод в HTML
+8,JavaScript,vulnerable.js,35,Critical,CWE-78,Command Injection,A03,CVE-2026-30880,9.8,exec() с пользовательским вводом

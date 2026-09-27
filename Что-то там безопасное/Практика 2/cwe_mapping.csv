@@ -1,0 +1,7 @@
+cwe_id,cwe_name,rank_2025,owasp_category,typical_impact
+CWE-79,Cross-site Scripting,1,A03 Injection,"Захват сессии, кража данных"
+CWE-89,SQL Injection,2,A03 Injection,"Утечка данных, обход аутентификации"
+CWE-78,OS Command Injection,9,A03 Injection,"Удалённое выполнение кода"
+CWE-120,Buffer Overflow,11,A06 Vulnerable Components,"Удалённое выполнение кода"
+CWE-476,NULL Pointer Dereference,14,A05 Misconfiguration,"Отказ в обслуживании"
+CWE-134,Format String,—,A03 Injection,"Утечка информации, выполнение кода"
