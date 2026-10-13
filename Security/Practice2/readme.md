@@ -42,7 +42,7 @@ sudo apt install cppcheck
 cppcheck --enable=all --inconclusive <file_path.cpp>
 ```
 
-### Приложение 2: JavaScript проект
+### Приложение 3: JavaScript проект
 Для запуска нужно установить node.js и после этого уже запустить в том же `bash`
 ```bash
 sudo apt install nodejs npm -y
